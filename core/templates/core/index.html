@@ -1,5 +1,6 @@
 {% extends "core/base.html" %}
+{% load static %}
 
 {% block content %}
-    <a href="/"><button>Sign up</button></a>
+    <a href="{% url 'accounts:sign-up' %}" class="btn btn-primary m-3">Sign up</a>
 {% endblock content %}

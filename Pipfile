@@ -5,6 +5,11 @@ name = "pypi"
 
 [packages]
 django = "*"
+psycopg2 = "*"
+django-phonenumber-field = "*"
+babel = "*"
+python-decouple = "*"
+django-countries = "*"
 
 [dev-packages]
 
